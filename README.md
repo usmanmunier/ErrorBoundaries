@@ -7,7 +7,8 @@ In React 16 concpet of ErrorBoundary is introduced to provide a way for error ha
 
 The concept is very simple:
 - Create a component and name it ErrorBoundary
-  ```import React from react;
+  ```
+  import React from react;
   import PropTypes from prop-types;
 
   class ErrorBoundary extends React.Component {
@@ -31,7 +32,8 @@ The concept is very simple:
       children: PropTypes.object
   };
 
-  export default ErrorBoundary;```
+  export default ErrorBoundary;
+  ```
 
 - In your view wrap all the components inside ErrorBoundary
 - Manage error from the top view, if there is an error then the view should send property hasError=true
