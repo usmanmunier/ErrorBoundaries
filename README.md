@@ -7,6 +7,7 @@ In React 16 concpet of ErrorBoundary is introduced to provide a way for error ha
 
 The concept is very simple:
 - Create a component and name it ErrorBoundary
+
   ```
   import React from react;
   import PropTypes from prop-types;
